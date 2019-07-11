@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/png" href="img/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="styles.css" />
 		<title>list IT - Manage Lists</title>
 	</head>
 	<body>
@@ -19,19 +20,19 @@
 		<h2>Manage Lists</h2>
 		<main>
 			<form id="ListMaster" target="#">
-				View List<br />
 				<section>
+					View List<br />
 					<select>
 						<option>Select a List</option>
 						<option>Grocery Shopping</option>
 						<option>Vacation Shoppping</option>
 						<option>Chores</option>
 					</select>
+					<button>Delete List</button>
+					<br />List Name
+					<br /><input type="text" placeholder="Grocery List e.g." />
+					<br /><button>Add List</button>
 				</section>
-				<button>Delete List</button>
-				<br />List Name
-				<br /><input type="text" placeholder="Grocery List e.g." />
-				<br /><button>Add List</button>
 			</form>
 			<hr />
 			<form id="ListIT" target="#">
